@@ -1,0 +1,8 @@
+.topHeader{
+    display: flex;
+    gap:50px;
+}
+.topHeader p{
+    color: black;
+
+}

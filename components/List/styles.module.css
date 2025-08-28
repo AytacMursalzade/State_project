@@ -1,0 +1,17 @@
+.containerList{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    
+}
+.listItem{
+    width: 98px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
