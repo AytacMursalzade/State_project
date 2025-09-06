@@ -1,4 +1,4 @@
-.containerList{
+/* .containerList{
     display: flex;
     list-style: none;
     gap: 8px;
@@ -14,4 +14,30 @@
     height: 50px;
     border-right: 1px solid black;
     cursor: pointer;
+} */
+
+.submenuItem {
+  padding: 6px 0;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.submenuItem:hover {
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+.listItem span:first-child {
+  font-size: 24px;
+  color: #0070f3;
+}
+
+.listItem span:last-child {
+  cursor: pointer;
+  color: #555;
+  transition: color 0.2s ease;
+}
+.listItem span:last-child:hover {
+  color: #0070f3;
 }
